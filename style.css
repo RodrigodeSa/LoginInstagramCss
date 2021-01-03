@@ -1,0 +1,163 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+text-decoration:none;
+font-family:sans-serif;
+font-size:14px;
+}
+body{
+   width: 100%;
+   min-height: 100vh;
+   background-color: rgb(243, 243, 243);
+   margin: -50px;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh; 
+    margin: 50px auto 50px;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60%;
+}
+
+.instagram-phone img {
+    height: 60rem;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    min-height: 40rem; 
+
+}
+
+.goup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.group:nth-child(1){
+    min-height: 20rem;
+    background: #fff;
+    border: 2px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 30px 0px 20px;
+    width: 130%;
+    padding-bottom: -20px;
+    
+}
+   
+.group:nth-child(2){
+    min-height: 6rem;
+    min-width: 130%;
+    background: #fff;
+    border: 2px solid #e6e6e6;
+    margin: -10px;
+    height: 0px;
+    padding: -10% 50%;
+    text-align:center;
+    padding-right: 23%;
+}
+.instagram-logo { 
+    height: 120px;
+    align-items: center;
+    width: 55%;
+    margin: 0 125px 0;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto 0px; 
+    width: 100%;  
+    
+}
+.profile-photo img{
+    height: 7rem; 
+    border-radius: 50%;
+    
+}
+.instagram-login {
+    font-size: 16px;
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 20%;
+    margin-left: 34%;
+}
+
+.instagram-logout {
+    color:#0095f6;
+    margin-top: 9rem;
+    margin-right: 30%;
+    margin-left: 32%;
+    padding: 50px;
+}
+
+.not-account {
+    color: rgb 160, 160, 160; 
+    margin-right: 20px;
+    margin-left: 30%;
+    
+}
+
+.link-blue{
+    color: #0095f6;
+}
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url("disponivel-na-app-store-botao-10.png");
+}
+.app-download:nth-child(2){
+    background-image: url("google-play.png");
+}
+
+
+
+
+
+
